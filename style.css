@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(girl.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     height:100vh;
+     position: relative;
+    background-position: center;
+}
+.logo img{
+    float: left;
+    height: 100px;
+    width:auto;
+
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style-type:none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color:black;
+    transition: 0.6s ease;
+}
+ul li.active a{
+    background-color: aliceblue;
+    color:black;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border:1px solid white;
+    padding: 10px 30px;
+    color:white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color:black;
+    transition: 0.6s ease;
+}
